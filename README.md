@@ -19,17 +19,20 @@ This project is a Retrieval-Augmented Generation (RAG) system designed to help y
 5. **Embedding:**  
    Each text chunk is converted into vector embeddings using the Deepseek model (R1) via Ollama.
 
-6. **Vector Store (FAISS)**
-    The generated embeddings are stored in a vector store, enabling efficient similarity search and retrieval.
+6. **Indexing:**
+   Indexing is done by generating embeddings with OllamaEmbeddings
+
+7. **Vector Store (FAISS)**
+    The generated embeddings are indexed and stored in a vector store, enabling efficient similarity search and retrieval.
     The FAISS library is used to cluster and index the embeddings, allowing for fast and scalable semantic search across all document chunks.
 
 8. **Retrieval:**  
    When you ask a question, the system searches the indexed chunks for the most relevant content using semantic similarity (Cosine similarity search).
 
-8. **Answer Generation:**  
+9. **Answer Generation:**  
    The retrieved context is sent to a Large Language Model (LLM), which generates a detailed and comprehensive answer based on your question and the relevant document content. Using the answer template.
 
-9. **History & Download:**  
+10. **History & Download:**  
    All your questions and answers are saved in a searchable history, which you can browse, paginate, and download as a CSV file.
 
 
