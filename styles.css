@@ -1,0 +1,76 @@
+/* Improved UI styles */
+
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Updated font for modern look */
+    background-color: #f4f7f6; /* Softer background color */
+    color: #333333; /* Darker text for better readability */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Improved text spacing */
+}
+
+h1, h2, h3 {
+    color: #2c3e50; /* Darker blue for better contrast */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add spacing below headings */
+}
+
+button {
+    background-color: #3498db; /* Modern blue button color */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increased padding for better touch targets */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px; /* Adjusted margins for better spacing */
+    cursor: pointer;
+    border-radius: 8px; /* More rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker hover color */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Added styles for links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+    color: #2980b9; /* Darker hover color */
+    text-decoration: underline;
+}
+
+/* Added container styles for better layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white; /* Add a white background for better contrast */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
