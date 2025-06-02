@@ -33,9 +33,6 @@ This project is a Retrieval-Augmented Generation (RAG) system designed to help y
    All your questions and answers are saved in a searchable history, which you can browse, paginate, and download as a CSV file.
 
 
-You can watch the video on how it was built on my [YouTube](https://youtu.be/M6vZ6b75p9k).
-
-
 ## Pre-requisites
 1. **Install Ollama** on your local machine from the [official website](https://ollama.com/).
 2. Pull the Deepseek model:
